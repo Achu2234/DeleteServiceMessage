@@ -31,18 +31,18 @@ async def greet(client,message):
 async def pmfilter(client, message):
     me = await message._client.get_me()
     await message.reply_text( f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
-I am Delete Events bot, I can delete Service message. Just Add me in group as admin.""",
-                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ðŸ”¶ ADD Me ðŸ”¶",url=f"https://t.me/Del_Events_Bot?startgroup=true")]]),
+I am Yᴇᴀɢᴇʀɪsᴛ Delete Events bot, I can delete Service message. Just Add me in group as admin A bot by @Animemusicarchive6.""",
+                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ðŸ”¶ ADD Me ðŸ”¶",url=f"http://t.me/Yeageristdelteevent_bot?startgroup=true")]]),
                              quote=True)
 
 @Delevents.on_message(filters.private & ~filters.command('start'))
 async def okla(client,message):
-    await message.reply_text("Hey Add Me to Group I am Delete Events Bot !!")
+    await message.reply_text("Hey Add Me to Group I am Yᴇᴀɢᴇʀɪsᴛ Delete Events Bot !!")
 
 
 @Delevents.on_message(filters.group & filters.command('start'))
 async def groupo(client,message):
-    await message.reply_text("Hey, I am Alive",quote=True)
+    await message.reply_text("Hey, I am Alive Join @Animemusicarchive6 for my updates",quote=True)
 
 Delevents.run()
 hm = Delevents.get_me()
